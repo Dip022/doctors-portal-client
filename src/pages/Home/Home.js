@@ -1,12 +1,14 @@
 import React from "react";
 import Banner from "./Banner";
 import Cart from "./Cart";
+import Services from "./Services";
 
 const Home = () => {
   return (
-    <div>
+    <div className="px-12">
       <Banner></Banner>
       <Cart></Cart>
+      <Services></Services>
     </div>
   );
 };
