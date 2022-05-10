@@ -1,11 +1,18 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import About from "./pages/About/About";
+import Home from "./pages/Home/Home";
+import Header from "./pages/sherd/Header/Header";
 
 function App() {
   return (
-    <div className="App">
-      <button class="inline-block cursor-pointer rounded-md bg-gray-800 px-4 py-3 text-center text-sm font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-gray-900">
-        Button
-      </button>
+    <div>
+      <Header></Header>
+      <Routes>
+        <Route path="/" element={<Home></Home>}></Route>
+        <Route path="/home" element={<Home></Home>}></Route>
+        <Route path="/about" element={<About></About>}></Route>
+      </Routes>
     </div>
   );
 }
