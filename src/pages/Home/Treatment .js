@@ -1,15 +1,16 @@
 import React from "react";
 import treatment from "../../assets/images/treatment.png";
+import PrimaryButton from "../sherd/PrimaryButton/PrimaryButton";
 
 const Treatment = () => {
   return (
     <div className="mt-20 mb-20 ">
-      <div class="card card-side bg-base-100 grid sm:grid-cols-1 md:grid-cols-2  shadow-xl flex items-center">
+      <div className="card card-side bg-base-100 grid sm:grid-cols-1 md:grid-cols-2  shadow-xl flex items-center">
         <figure>
           <img src={treatment} alt="Movie" />
         </figure>
-        <div class="card-body">
-          <h2 class="card-title text-5xl">
+        <div className="card-body">
+          <h2 className="card-title text-5xl">
             Exceptional Dental Care, on Your Terms
           </h2>
           <p className="text-1xl">
@@ -20,8 +21,8 @@ const Treatment = () => {
             here', making it look like readable English. Many desktop publishing
             packages and web page
           </p>
-          <div class="card-actions justify-top">
-            <button class="btn btn-primary">Watch</button>
+          <div className="card-actions justify-top">
+            <PrimaryButton>GET STARTED</PrimaryButton>
           </div>
         </div>
       </div>
