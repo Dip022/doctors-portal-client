@@ -3,7 +3,7 @@ import doctor from "../../assets/images/doctor.png";
 import appointment from "../../assets/images/appointment.png";
 import PrimaryButton from "../sherd/PrimaryButton/PrimaryButton";
 
-const Appointment = () => {
+const Appointments = () => {
   return (
     <section
       style={{
@@ -31,4 +31,4 @@ const Appointment = () => {
   );
 };
 
-export default Appointment;
+export default Appointments;

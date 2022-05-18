@@ -10,7 +10,7 @@ const ContactForm = () => {
         background: `url(${appointment})`,
         backgroundSize: "cover",
       }}
-      className="mt-5 mb-5 pt-30"
+      className="mt-5 mb-10 pt-30"
     >
       <div className="contact-info">
         <h1 className="text-center text-primary text-3xl text-bold">
